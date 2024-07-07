@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+.playwrite-gb-s-W {
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  HTML CSS JSResult Skip Results Iframe
+EDIT ON
+body, html {
+  background: #090d00;
+}
+
+/* BACKGROUND */
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#bg canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+  
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      padding: 2rem;
+      font-family: Playwrite GB S;
+      
+      background: url("gradient-bg.jpg");
+      background-position: center;
+
+  }
+  h1{
+    font-size: 30px ;
+  }
+
+  button{
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 2rem;
+    background: radial-gradient(circle at 50% 50%, rgba(0, 255, 235, 1) 12%, rgba(72, 116, 228, 1) 100%);
+    border: 2px solid white;
+    color: white;
+    font-weight: bolder;
+   font-size: larger;
+transition: all 0.5s ease;
+  }
+  button:hover{
+    transform: scale(1.1);
+  }
+  .screen{
+   display: flex;
+   flex-direction: column;
+   margin-top: 2rem;
+   width: 100%;
+   align-items: center;
+   gap: 2rem;
+  }
+
+  h1,h2{
+    margin: 0 auto;
+    text-align: center;
+    color: aliceblue;
+  }
+  .vicmessage{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+   
+  }
+
+.main{
+    padding: 40px;
+    width: 350px;
+    height: 350px;
+    display: grid;
+    grid-template-columns:33.3% 33.3% 33.3%;
+    grid-template-rows:33.3% 33.3% 33.3%;
+    border-radius: 10px;
+    background-color: rgba(148, 147, 147, 0.463);
+    border: 1px solid white;
+   
+}
+.b00,.b10,.b20{
+    border-right: 3px solid white;
+}
+
+.b02,.b12,.b22{
+    border-left: 3px solid white;
+}
+.b00,.b01,.b02{
+    border-bottom: 3px solid white;
+}
+.b20,.b21,.b22{
+    border-top: 3px solid white;
+}
+.box{
+    width: 100%;
+    height:100%;
+    font-family: Playwrite GB S;
+    font-size: 35px;
+    color: aliceblue;
+    cursor: pointer;
+    transition:all 1s ease ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.st{
+    background: rgba(0, 0, 255, 0.241);
+    
+}
